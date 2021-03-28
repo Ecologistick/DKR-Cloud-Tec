@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="ru"> 
+<head>
+	<meta charset="utf-8">
+	<title>Салон красоты</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+  	<link rel="stylesheet" href="css/zerogrid.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/lightbox.css">
+	<link rel="stylesheet" href="css/signup.css">
+	
+	<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+   
+</head>
+<body>
+
+<header>
+	<div class="main-header">
+		<div class="zerogrid">
+			<div class="row">
+				<div class="col-1-4">
+					<span class="contact-info left">
+						<b style="color:#2b2459;font-size:14px;">Пон - Суб 8.00 - 20.00</b>
+						<br>
+						Закрыты в воскресенье
+					</span>
+				</div>
+				<div class="col-2-4">
+					<div id="logo"><a href="index.html"><img src="images/logo.png" /></a></div>
+				</div>
+				<div class="col-1-4">
+					<span class="contact-info right">
+						<b style="color:#2b2459;font-size:14px;">Звоните по номеру: 123-456-78-90</b>
+						<br>
+						info@mail.com
+					</span>
+				</div>
+			</div>
+		</div>
+	</div>
+</header>
+<section id="container">
+	<div class="wrap-container">
+		<section class="content-box boxstyle-1 box-1">
+			<div class="zerogrid">
+				<div class="row wrap-box">
+					<div class="col-1-2">
+						<div class="wrap-col">
+							<h1>Добро пожаловать в<br><span>Салон красоты</span></h1>
+							<p class="lead">Салон красоты — заведение, занимающееся косметическим обслуживанием мужчин и женщин.</p>
+							<p>Хотите порадовать себя после напряженного или сложной недели поднимающим настроение и самооценку досугом? Посетите Салон красоты, что находится на проспекте Мира.</p>
+							<p>У нас есть парикмахер, стилист, косметолог и визажист.</p>
+						</div>
+					</div>
+					<div class="col-1-2">
+						<div class="wrap-col">
+							<img src="images/banner01.jpg">
+						</div>
+					</div>
+				</div>
+				
+			</div>
+		</section>
+		<section class="content-box boxstyle-1 box-2">
+		
+			<div class="zerogrid">
+				<div class="row wrap-box">
+					<div class="header">
+						<div class="wrapper">
+							<h2 class="color-yellow">Команда</h2>
+							<hr class="line02">
+							<div class="intro">Наши работники</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-1-4">
+							<div class="wrap-col item">
+								<div class="portfolio-box">
+									<img src="images/ava-4.jpg"alt="">
+								</div>
+								<div class="item-content">
+									<h3><a href="#">Антон Колесников</a></h3>
+									<span>Парикмахер</span>
+								</div>
+							</div>
+						</div>
+						<div class="col-1-4">
+							<div class="wrap-col item">
+								<div class="portfolio-box">
+									<img src="images/ava-5.jpg"alt="">
+								</div>
+								<div class="item-content">
+									<h3><a href="#">Виталий Петрой</a></h3>
+									<span>Стилист</span>
+								</div>
+							</div>
+						</div>
+						<div class="col-1-4">
+							<div class="wrap-col item">
+								<div class="portfolio-box">
+									<img src="images/ava-6.jpg"alt="">
+								</div>
+								<div class="item-content">
+									<h3><a href="#">Александра Будилова</a></h3>
+									<span>Косметолог</span>
+								</div>
+							</div>
+						</div>
+						<div class="col-1-4">
+							<div class="wrap-col item">
+								<div class="portfolio-box">
+									<img src="images/ava-7.jpg"alt="">
+								</div>
+								<div class="item-content">
+									<h3><a href="#">Евгения Петрова</a></h3>
+									<span>Визажист</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</div>
+</section>
+<div class = "floating-signup">
+	<div class="container__child signup__form-signup">
+				<form action="insert.php" method="POST">
+					<div class="form-group-signup">
+					
+						<label for="username">Имя пользователя</label>
+						<br/>
+						<input class="form-control-signup" type="text" name="username" id="username" placeholder="james.bond" required />
+					</div>
+					<div class="form-group-signup">
+						<label for="email">Эл. Почта</label>
+						<br/>
+						<input class="form-control-signup" type="text" name="email" id="email" placeholder="james.bond@spectre.com" required />
+					</div>
+					<div class="form-group-signup">
+						<label for="password">Пароль</label>
+						<br/>
+						<input class="form-control-signup" type="password" name="password" id="password" placeholder="********" required />
+					</div>
+					<div class="m-t-lg-signup">
+						<ul class="list-inline-signup">
+							<li>
+								<input class="btn btn--form-signup" type="submit" value="Регистрация" />
+							</li>
+						</ul>
+					</div>
+				</form>  
+	</div>
+</div>
+</body>
+</html>
